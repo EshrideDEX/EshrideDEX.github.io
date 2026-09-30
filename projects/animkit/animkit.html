@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Eshride — Game Developer & Animator</title>
+	<meta
+		name="description"
+		content="Eshride is a game developer, animator, and technical artist creating games, tools, and animation."
+	>
+
+	<link rel="stylesheet" href="../../style.css">
+</head>
+
+<body class="animkit-page">
+
+    <header class="site-header">
+		<nav class="project-navbar">
+			<div class="project-brand">
+				<a href="../../index.html" class="back-button">←</a>
+				<a href="#" class="logo">Eshride</a>
+			</div>
+
+			<div class="nav-links">
+				<a href="../index.html#work">Work</a>
+				<a href="../index.html#about">About</a>
+				<a href="../index.html#contact">Contact</a>
+			</div>
+		</nav>
+	</header>
+    
+    <main>
+        <section class="project-hero">
+			<div class="project-hero-background">
+				<span></span>
+			</div>
+			<div class="project-hero-title">
+				<h1>AnimKit</h1>
+			</div>
+			<div class="project-icon project-icon-animkit">
+				<span></span>
+			</div>
+			<div class="hero-download">
+				<a class="project-download-button" href="#">
+					Download
+				</a>
+			</div>
+		</section>
+
+		<section class="project-details">
+			<div class="project-summary">
+				<h2>AnimKit is a collection of tools designed to make animation workflows
+					faster and more convenient.
+				</h2>
+			</div>
+		</section>
+
+		<section class="project-features">
+			<article class="project-feature">
+				<div class="project-feature-content">
+					<p>
+						AnimKit has a dedicated Bone Dock for editing the transforms of multiple bones at once including euler rotation editing.<br><br>
+						Hold SHIFT to select multiple bones from the Bone List.
+					</p>
+				</div>
+				<div class="project-feature-image">
+					<video autoplay loop muted playsinline>
+						<source src="../../assets/animkit/bone_dock.mp4" type="video/mp4">
+					</video>
+				</div>
+			</article>
+
+			<article class="project-feature project-feature-reverse">
+				<div class="project-feature-content">
+					<p>
+						Copy and paste the transforms from one bone to another.<br><br>
+						Need to mirror transforms to the other side?<br><br>
+						Hold SHIFT before clicking the paste button to paste flipped transforms.
+					</p>
+				</div>
+				<div class="project-feature-image">
+					<video autoplay loop muted playsinline>
+						<source src="../../assets/animkit/copy_paste.mp4" type="video/mp4">
+					</video>
+				</div>
+			</article>
+
+			<article class="project-feature">
+				<div class="project-feature-content">
+					<p>
+						Open the Pose Library tab at the bottom of the editor to start saving and for your rigs to use later!
+					</p>
+				</div>
+				<div class="project-feature-image">
+					<video autoplay loop muted playsinline>
+						<source src="../../assets/animkit/pose_library.mp4" type="video/mp4">
+					</video>
+				</div>
+			</article>
+
+			<article class="project-feature project-feature-reverse">
+				<div class="project-feature-content">
+					<p>
+						Use the Pose Mirror Pose button in the Bone Dock to mirror the entire pose of your rig to the other side.
+					</p>
+				</div>
+				<div class="project-feature-image">
+					<video autoplay loop muted playsinline>
+						<source src="../../assets/animkit/pose_mirror.mp4" type="video/mp4">
+					</video>
+				</div>
+			</article>
+		</section>
+		<section class="project-faq">
+
+			<div class="project-section-header">
+				<h2>FAQ</h2>
+			</div>
+
+			<div class="project-faq-content">
+				<details>
+					<summary>What is AnimKit?</summary>
+					<p>
+						AnimKit is a Godot addon that provides a collection of tools to make working with bones, rigs, and animations easier.
+					</p>
+				</details>
+
+				<details>
+					<summary>What versions/platforms does it work with?</summary>
+					<p>
+						AnimKit works on every platform supported by Godot, as it is written entirely in GDScript and does not use any compiled binaries. It has been tested with Godot 4.3–4.7 stable stable.
+					</p>
+				</details>
+
+				<details>
+					<summary>Is AnimKit free?</summary>
+						<p>
+							For now, yes. AnimKit is free and open source. However, as the project grows, it may eventually have a one-time purchase fee.
+						</p>
+				</details>
+
+				<details>
+					<summary>Where can I get it?</summary>
+						<p>
+							You can download the latest release from the bottom of this page, or you can install it directly in your project through the Godot Asset Library tab in the Godot Editor.
+						</p>
+				</details>
+
+				<details>
+					<summary>How do I install AnimKit?</summary>
+
+					<ol>
+						<li>Copy the anim_kit/ folder into your Godot project's addons/ folder</li>
+						<li>Enable the plugin in Project → Project Settings → Plugins</li>
+					</ol>
+				</details>
+				
+				<details>
+					<summary>Where do I report problems or ask for help?</summary>
+					<p>
+						You can open a new issue over on <a href="https://github.com/EshrideDEX/anim-kit/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.
+					</p>
+				</details>
+			</div>
+
+		</section>
+
+		<section class="project-download">
+			<div class="project-section-header">
+				<h2>Ready to give it a spin?</h2>
+			</div>
+
+			<a class="project-download-button" href="#">
+				Download
+			</a>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>© 2026 Eshride</p>
+	</footer>
+
+	<script>
+		window.addEventListener('scroll', () => {
+			// Pass current scroll position into CSS
+			document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
+		}, { passive: true });
+	</script>
+
+</body>
+</html>
